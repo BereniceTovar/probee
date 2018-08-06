@@ -49,7 +49,7 @@ ul#list-icons {
 /*Main*/
 
 #main-doc {
-    height: 80vh;
+    height: 65vh;
 }
 
 #categories, #carouselExampleIndicators, #advertising {
@@ -117,4 +117,8 @@ div ul a:active, a:link, a:visited {
 
 .fa-youtube {
     color: red;
+}
+
+.newsletter {
+    padding-top: 10px;
 }
