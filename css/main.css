@@ -1,0 +1,63 @@
+/* Navigation */
+
+#nav-bar {
+    color: black;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    height: 60px;
+}
+
+a.name-probee {
+    float: left;
+    top: 2%;
+    margin-left: 10px;
+}
+
+h2 img {
+    width: 40px;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+#search-input {
+    position: relative;
+    padding-top: 10px;
+    left: 20%;
+}
+
+.color-black {
+    color: black;
+}
+
+ul#list-icons {
+    position: absolute;
+    right: 10px;
+    margin-top: -4.5%;
+}
+
+/*Main*/
+
+#main-doc {
+    height: 100vh;
+}
+
+#categories, #carouselExampleIndicators, #advertising {
+    position: relative;
+    top: 60px;
+    padding: 20px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #adadad;
+    height: 50vh;
+}
+
