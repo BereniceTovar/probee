@@ -2,7 +2,7 @@
 
 #nav-bar {
     color: black;
-    border: 1px solid black;
+    border-bottom: 1px solid #adadad;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -29,7 +29,11 @@ h2 {
 #search-input {
     position: relative;
     padding-top: 10px;
-    left: 20%;
+    left: 7%;
+}
+
+#search-p {
+    width: 35%;
 }
 
 .color-black {
@@ -45,7 +49,7 @@ ul#list-icons {
 /*Main*/
 
 #main-doc {
-    height: 100vh;
+    height: 80vh;
 }
 
 #categories, #carouselExampleIndicators, #advertising {
@@ -54,10 +58,63 @@ ul#list-icons {
     padding: 20px;
 }
 
+#categories-title {
+    background-color: #d1d1d1;
+    color: black;
+    border: 1px solid #dfdfdf;
+}
+
 /*Footer*/
 
 footer {
-    background-color: #adadad;
-    height: 50vh;
+    background-color: #d1d1d1;
+    height: 40vh;
+    width: 100%;
 }
 
+div.rights-reserved {
+    background-color: #605f5f;
+    height: 40px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+i {
+    padding: 5px;
+    font-size: 25px;
+}
+
+.phrase-r {
+    margin-left: 5%;
+}
+
+div.cont-footer {
+    padding: 20px;
+}
+
+div ul li {
+    list-style: none;
+}
+
+div ul a {
+    text-decoration: none;
+    color: black;
+}
+
+div ul a:active, a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-facebook-square {
+    color: #375899;
+
+} 
+
+.fa-twitter {
+    color: #00aee8;
+} 
+
+.fa-youtube {
+    color: red;
+}

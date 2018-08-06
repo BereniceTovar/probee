@@ -6,6 +6,7 @@
     <title>Probee</title>
     <link rel="icon" href="./assets/images/probeelog.png" type="text/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/assets/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -16,8 +17,8 @@
             <h2 class="color-black">Probee <img src="assets/images/probeelog.png" alt="probee-logo"></h2>
         </a>
         <form id="search-input" class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input id="search-p" class="form-control mr-sm-2" type="search" placeholder="Ejemplo: bolsas" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
         </form>
         <ul id="list-icons" class=" nav justify-content-end">
             <li class="nav-item">
@@ -35,8 +36,8 @@
     <main id="main-doc"class="container"> 
         <div class="row">
             <div id="categories" class="list-group col-lg-3 col-md-3 col-sm-12">
-                <a href="#" class="list-group-item list-group-item-action active">
-                    Categorías
+                <a href="#"  id="categories-title" class="list-group-item list-group-item-action active">
+                    CATEGORÍAS
                 </a>
                 <a href="#" class="list-group-item list-group-item-action">Belleza y Salud</a>
                 <a href="#" class="list-group-item list-group-item-action">Ropa y Zapatos</a>
@@ -78,9 +79,55 @@
         </div>
     </main>
     <footer>
-        
+        <div class="cont-footer row">
+            <div class="col-lg-4 col-md-4">
+                <h4>Acerca de nosotros</h4>
+                <ul>
+                    <a href="#"><li>¿Quienes Somos?</li></a>
+                    <a href="#"><li>Vende en Probee</li></a>
+                    <a href="#"><li>Trabaja con Nosotros</li></a>
+                    <a href="#"><li>Programa de Afiliados</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <center><h4>Servicio al cliente</h4></center>
+                <ul>
+                    <a href="#"><li>Preguntas Frecuentes</li></a>
+                    <a href="#"><li>Políticas de Privacidad</li></a>
+                    <a href="#"><li>Políticas de Envíos, Devoluciones y Cancelaciones</li></a>
+                    <a href="#"><li>Términos y Condiciones Generales</li></a>
+                    <a href="#"><li>Términos y Condiciones de Venta de Productos Marketplace</li></a>
+                    <a href="#"><li>Formas de pago</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h4>¿Preguntas?</h4>
+                <p>¡Contactanos! <br> probee.contacto@gmail.com</p>
+                <br>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
-
+    <!--Rights reserved-->
+    <div class="rights-reserved row">
+        <div class="col-lg-5 col-md-5 col-sm-5 phrase-r">
+            <p>© 2018. Derechos reservados Probee.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-amex"></i>
+            <i class="fab fa-cc-paypal"></i>
+        </div>
+    </div>
+    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
