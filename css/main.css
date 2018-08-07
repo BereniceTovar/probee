@@ -52,10 +52,15 @@ ul#list-icons {
 /*Main*/
 
 #main-doc {
-    height: 65vh;
+    max-height: fit-content;
+
+}
+#products{
+    min-height: 40vh;
+    max-height: fit-content;
 }
 
-#categories, #carouselExampleIndicators, #advertising {
+#categories, #carouselExampleIndicators, #advertising, #products {
     position: relative;
     top: 60px;
     padding: 20px;
@@ -73,6 +78,7 @@ footer {
     background-color: #d1d1d1;
     height: 40vh;
     width: 100%;
+    margin-top: 1.7em;
 }
 
 div.rights-reserved {
