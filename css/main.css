@@ -1,3 +1,6 @@
+/*General*/
+
+
 /* Navigation */
 
 #nav-bar {
@@ -6,7 +9,7 @@
     position: fixed;
     width: 100%;
     z-index: 10;
-    background-color: white;
+    background-color: #eaeded;
     height: 60px;
 }
 
