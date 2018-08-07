@@ -1,5 +1,6 @@
 const allProducts = (products) => {
     $("#products").html("");
+    $("#search-btn").val("");
     console.log(products);
     const infoProducts = products.results;
     console.log(infoProducts);
@@ -12,15 +13,14 @@ const allProducts = (products) => {
 }
 
 const template = (nameProduct, image) => {
-    console.log(image);
-    let t = `<div class="container-product"><img src='${image}' alt='picture-product'><br><p><b>Nombre del producto</b>: ${nameProduct}</p></div`;
+    let t = `<div class="container-product"><img src='${image}' alt='picture-product'><br><p class="name-product">${nameProduct}</p></div`;
     return t;
 }
 
 const ajaxProducts = (event) => {
     event.preventDefault();
     $.ajax({
-        url: `https://api.mercadolibre.com/sites/MLM/search?q=${$('#search-p').val()}&limit=10`,
+        url: `https://api.mercadolibre.com/sites/MLM/search?q=${$('#search-p').val()}&limit=12`,
         type: 'GET',
         datatype: 'json',
     })
@@ -33,8 +33,11 @@ const ajaxProducts = (event) => {
     });
 }
 
+
+
 $(document).ready(() => {
     console.log("La página está cargada");
     $("#search-btn").click(ajaxProducts);
+
 
 });

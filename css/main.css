@@ -72,13 +72,25 @@ ul#list-icons {
     border: 1px solid #dfdfdf;
 }
 
+.container-product {
+    border: 1px solid white;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.name-product {
+    font-size: 10px;
+}
+
+
 /*Footer*/
 
 footer {
     background-color: #d1d1d1;
     height: 40vh;
     width: 100%;
-    margin-top: 1.7em;
+    margin-top: 2.5em;
 }
 
 div.rights-reserved {
