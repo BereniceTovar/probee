@@ -60,7 +60,7 @@ ul#list-icons {
     max-height: fit-content;
 }
 
-#categories, #carouselExampleIndicators, #advertising, #products {
+#categories, #carouselExampleIndicators, #advertising, #products, #info-product {
     position: relative;
     top: 60px;
     padding: 20px;
@@ -81,6 +81,10 @@ ul#list-icons {
 
 .name-product {
     font-size: 10px;
+}
+
+button.descr-btn {
+    margin: 20px;
 }
 
 
