@@ -195,6 +195,32 @@ function idProduct(elem){
             ajaxProducts2(dataId);
 }
 
+//Paypal Button
+paypal.Button.render({
+    env: 'sandbox',
+    client: {
+        sandbox: 'AQ5ozK_EXM5J6TXRT-cVu8AI0r37ZnUDQEmq-d1X7HzOwBU7b0t083U1u5XEhSXX-KrQGTCO9V2e2vD8',
+        //production: 'ARO_9e46muyq76983ZX3kO_u58nMI9o3kBut01mNHNnUskXmfWKYCalEq0cHRhFFxG0Ng5huPUryKc3z'
+    },
+    payment: function (data, actions) {
+        return actions.payment.create({
+        transactions: [{
+            amount: {
+            total: '0.01',
+            currency: 'USD'
+            }
+        }]
+        });
+    },
+    onAuthorize: function (data, actions) {
+        return actions.payment.execute()
+        .then(function () {
+            window.alert('Gracias por tu compra!');
+        });
+    }
+    }, '.paypal-button');
+
+
 $(document).ready(() => {
     console.log("La página está cargada");
     $("#search-btn").click(ajaxProducts);
