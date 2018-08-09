@@ -5,7 +5,7 @@
 
 ***
 
-En este reto se desarrolló una app web e-commerce, bajo los principios de SPA (Single page Application). Se aplicaron los siguientes conceptos.
+Se desarrolló una app web e-commerce, bajo los principios de SPA (Single Page Application). Se aplicaron los siguientes conceptos.
 
 * Templating
 * Routing (URLs)
@@ -29,19 +29,19 @@ Probee es un marketplace en el cual los fabricantes/proveedores pueden ofrecer s
 
 **Flujo del programa**
 
-1. El comprador entra a la página principal y busca directamente el articulo que le interesa.
+1. El comprador entra a la página principal y busca directamente el artículo que le interesa.
 
-2. Al hacer click en buscar, aparecen los principales fabricantes/proveedores con el producto que coincide con la búsqueda.
+2. Al hacer click en buscar, aparecen diferentes fabricantes/proveedores con el producto que coincide con la búsqueda.
 
-3. Se hace click en el producto/proveedor que esta interesado.
+3. Se hace click en el producto/proveedor que se esta interesado.
 
 4. Se muestra información específica del producto, la puntuación que tiene de otros usuarios que han comprado, material, precio, garantía etc.
 
-5. Si hay una persona/empresa que esté interesada en formar parte del directorio, tiene que hacer click en el botón que dice " Ingresa Aquí " en el anuncio que se encuentra situado a la derecha de la página.
+5. Si hay una empresa que esté interesada en formar parte del directorio de proveedores, tiene que hacer click en el botón que dice " Ingresa Aquí " en el anuncio que se encuentra situado a la derecha de la página.
 
-6. Al hacer click en el anuncio se va a abrir un modal con los dos tipos de suscripciones y lo que incluye cada una.
+6. Al hacer click en el anuncio se va a abrir un modal con los dos tipos de suscripciones con la descripción de lo que incluye cada una.
 
-7. Si el usuario quiere ser miembro premium va hacer click en el botón de PayPal para hacer el pago directo de su suscripción a nuestro directorio.
+7. Si la empresa quiere ser miembro premium va hacer click en el botón de PayPal para hacer el pago directo de su suscripción al directorio.
 
 ### Visualización desktop
 
@@ -72,25 +72,33 @@ _Confirmación de la suscricpión_
 _Página principal_
 
 ![Mobile](assets/images/mobile1.png)
+
 ![Mobile](assets/images/mobile2.png)
+
 ![Mobile](assets/images/mobile3.png)
 
 _Búsqueda del artículo_
 
 ![Mobile](assets/images/mobile4.png)
+
 ![Mobile](assets/images/mobile5.png)
+
 ![Mobile](assets/images/mobile6.png)
 
 _Información del artículo_
 
 ![Mobile](assets/images/mobile7.png)
+
 ![Mobile](assets/images/mobile8.png)
+
 ![Mobile](assets/images/mobile9.png)
+
 ![Mobile](assets/images/mobile10.png)
 
 _Suscripción al directorio de proveedores_
 
 ![Mobile](assets/images/mobile11.png)
+
 ![Mobile](assets/images/mobile12.png)
 
 _Confirmación de la suscricpión_
