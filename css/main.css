@@ -267,5 +267,8 @@ div ul a:active, a:link, a:visited {
     .btn-lg {
         padding: 5px;
     }
+    img.img-product {
+        width: 100%;;
+    }
 
 }
