@@ -25,11 +25,12 @@ const ajaxProducts = (event) => {
         datatype: 'json',
     })
     .done((response) => {
-        console.log(response);
+        //console.log(response);
         allProducts(response);
     })
     .fail((error) => {
         console.log('Error');
+        swal("¡Error!", "Intentalo de nuevo");
     });
 }
 
@@ -71,6 +72,7 @@ function idProduct(elem){
                 })
                 .fail((error) => {
                     console.log('Error2');
+                    swal("¡Error!", "Intentalo de nuevo");
                 });
             }
         
@@ -97,10 +99,11 @@ paypal.Button.render({
     onAuthorize: function (data, actions) {
         return actions.payment.execute()
         .then(function () {
-            window.alert('¡Agradecemos su suscripción!');
+            swal("Suscripción Exitosa", "¡Bienvenid@ a Probee!", "success");
+            //window.alert('¡Agradecemos su suscripción!');
         });
     }
-    }, '.paypal-button');
+    }, '#paypal-button');
 
 
 $(document).ready(() => {
