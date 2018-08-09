@@ -25,23 +25,23 @@ Se usaron las siguientes tecnologías:
 
 **Información sobre este proyecto**
 
-Probee es un marketplace en el cual los proveedores pueden ofrecer sus productos a comercializadores y mayoristas.
+Probee es un marketplace en el cual los fabricantes/proveedores pueden ofrecer sus productos a comercializadores y mayoristas.
 
 **Flujo del programa**
 
-1. El comprador entra a la página principal y busca directamente el articulo que esta buscando.
+1. El comprador entra a la página principal y busca directamente el articulo que le interesa.
 
-2. Al hacer click en buscar, aparecen los principales proveedores con el producto que coincide con la búsqueda.
+2. Al hacer click en buscar, aparecen los principales fabricantes/proveedores con el producto que coincide con la búsqueda.
 
-3. Se hace click en el producto/proveedor en el cual esta interesado.
+3. Se hace click en el producto/proveedor que esta interesado.
 
 4. Se muestra información específica del producto, la puntuación que tiene de otros usuarios que han comprado, material, precio, garantía etc.
 
-5. Si hay una persona/empresa que esté interesada en formar parte del directorio, tiene que hacer click en el botón que dice 'Ingresa Aquí' en el anuncio que se encuentra situado a la derecha de la página.
+5. Si hay una persona/empresa que esté interesada en formar parte del directorio, tiene que hacer click en el botón que dice " Ingresa Aquí " en el anuncio que se encuentra situado a la derecha de la página.
 
 6. Al hacer click en el anuncio se va a abrir un modal con los dos tipos de suscripciones y lo que incluye cada una.
 
-7. Si el usuario quiere ser miembro premium va hacer click en el botón de paypal para hacer el pago directo de su suscripción a nuestra lista.
+7. Si el usuario quiere ser miembro premium va hacer click en el botón de PayPal para hacer el pago directo de su suscripción a nuestro directorio.
 
 ### Visualización desktop
 
@@ -60,19 +60,27 @@ Probee es un marketplace en el cual los proveedores pueden ofrecer sus productos
 ## Visualización mobile 
 
 ![Mobile](assets/images/mobile1.png)
+
 ![Mobile](assets/images/mobile2.png)
+
 ![Mobile](assets/images/mobile3.png)
 
 ![Mobile](assets/images/mobile4.png)
+
 ![Mobile](assets/images/mobile5.png)
+
 ![Mobile](assets/images/mobile6.png)
 
 ![Mobile](assets/images/mobile7.png)
+
 ![Mobile](assets/images/mobile8.png)
+
 ![Mobile](assets/images/mobile9.png)
+
 ![Mobile](assets/images/mobile10.png)
 
 ![Mobile](assets/images/mobile11.png)
+
 ![Mobile](assets/images/mobile12.png)
 
 ![Mobile](assets/images/mobile13.png)
