@@ -45,57 +45,79 @@ Probee es un marketplace en el cual los fabricantes/proveedores pueden ofrecer s
 
 ### Visualización desktop
 
+_Página principal_
+
 ![Desktop](assets/images/desktop1.png)
+
+_Búsqueda del artículo_
 
 ![Desktop](assets/images/desktop2.png)
 ![Desktop](assets/images/desktop3.png)
 
+_Información del artículo_
+
 ![Desktop](assets/images/desktop4.png)
 ![Desktop](assets/images/desktop5.png)
 
+_Suscripción al directorio de proveedores_
+
 ![Desktop](assets/images/desktop6.png)
+
+_Confirmación de la suscricpión_
 
 ![Desktop](assets/images/desktop7.png)
 
 ## Visualización mobile 
 
+_Página principal_
+
 ![Mobile](assets/images/mobile1.png)
-
 ![Mobile](assets/images/mobile2.png)
-
 ![Mobile](assets/images/mobile3.png)
 
+_Búsqueda del artículo_
+
 ![Mobile](assets/images/mobile4.png)
-
 ![Mobile](assets/images/mobile5.png)
-
 ![Mobile](assets/images/mobile6.png)
 
+_Información del artículo_
+
 ![Mobile](assets/images/mobile7.png)
-
 ![Mobile](assets/images/mobile8.png)
-
 ![Mobile](assets/images/mobile9.png)
-
 ![Mobile](assets/images/mobile10.png)
 
-![Mobile](assets/images/mobile11.png)
+_Suscripción al directorio de proveedores_
 
+![Mobile](assets/images/mobile11.png)
 ![Mobile](assets/images/mobile12.png)
+
+_Confirmación de la suscricpión_
 
 ![Mobile](assets/images/mobile13.png)
 
 ## Visualización tablet
 
+_Página principal_
+
 ![Tablet](assets/images/tablet1.png)
 ![Tablet](assets/images/tablet2.png)
+
+_Búsqueda del artículo_
 
 ![Tablet](assets/images/tablet3.png)
 ![Tablet](assets/images/tablet4.png)
 
+_Información del artículo_
+
 ![Tablet](assets/images/tablet5.png)
 ![Tablet](assets/images/tablet6.png)
 
+_Suscripción al directorio de proveedores_
+
 ![Tablet](assets/images/tablet7.png)
+
+_Confirmación de la suscricpión_
 
 ![Tablet](assets/images/tablet8.png)
