@@ -44,6 +44,7 @@ Probee es un marketplace en el cual los proveedores pueden ofrecer sus productos
 7. Si el usuario quiere ser miembro premium va hacer click en el botón de paypal para hacer el pago directo de su suscripción a nuestra lista.
 
 ### Visualización desktop
+
 ![Desktop](assets/images/desktop1.png)
 
 ![Desktop](assets/images/desktop2.png)
@@ -56,4 +57,37 @@ Probee es un marketplace en el cual los proveedores pueden ofrecer sus productos
 
 ![Desktop](assets/images/desktop7.png)
 
+## Visualización mobile 
 
+![Mobile](assets/images/mobile1.png)
+![Mobile](assets/images/mobile2.png)
+![Mobile](assets/images/mobile3.png)
+
+![Mobile](assets/images/mobile4.png)
+![Mobile](assets/images/mobile5.png)
+![Mobile](assets/images/mobile6.png)
+
+![Mobile](assets/images/mobile7.png)
+![Mobile](assets/images/mobile8.png)
+![Mobile](assets/images/mobile9.png)
+![Mobile](assets/images/mobile10.png)
+
+![Mobile](assets/images/mobile11.png)
+![Mobile](assets/images/mobile12.png)
+
+![Mobile](assets/images/mobile13.png)
+
+## Visualización tablet
+
+![Tablet](assets/images/tablet1.png)
+![Tablet](assets/images/tablet2.png)
+
+![Tablet](assets/images/tablet3.png)
+![Tablet](assets/images/tablet4.png)
+
+![Tablet](assets/images/tablet5.png)
+![Tablet](assets/images/tablet6.png)
+
+![Tablet](assets/images/tablet7.png)
+
+![Tablet](assets/images/tablet8.png)
