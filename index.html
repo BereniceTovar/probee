@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Probee</title>
     <link rel="icon" href="./assets/images/probeelog.png" type="text/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/assets/bootstrap.min.css">
@@ -14,7 +15,7 @@
     <!--Navigation-->
     <nav id="nav-bar">
         <a class="name-brand navbar-brand name-probee" href="#">
-            <h2 class="color-black">Probee
+            <h2 class="back color-black">Probee
                 <img src="assets/images/probeelog.png" alt="probee-logo">
             </h2>
         </a>
@@ -105,22 +106,42 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <div class="paypal-button"></div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Básico</h5>
+                                        <small>Gratis</small>
+                                        <img class="basic-account"src="assets/images/basic.png" alt="basic">
+                                        <p class="card-text"><i class="fas fa-check-circle"></i>Registro y publicacion de hasta 30 productos.</p>
+                                        <p class="card-text"><i class="fas fa-times-circle"></i>Icono de verificación.</p>
+                                        <p class="card-text"><i class="fas fa-times-circle"></i>Publicidad dentro de la página y en resultados de búsqueda.</p>
+                                        <a id="continue-btn" href="#" class="btn btn-outline-warning">Continuar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Premium</h5>
+                                        <small>Desde $280 MXN  al mes</small>
+                                        <img class="premium-logo" src="assets/images/premium.png" alt="premium">
+                                        <p class="card-text"><i class="fas fa-check-circle"></i>Registro y publicacion de productos ilimitados.</p>
+                                        <p class="card-text"><i class="fas fa-check-circle"></i>Icono de verificación.</p>
+                                        <p class="card-text"><i class="fas fa-check-circle"></i>Publicidad dentro de la página y en resultados de búsqueda.</p>
+                                        <div class="paypal-button"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-secondary">Guardar</button>
+                        <small>Aplican términos y condiciones**</small>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <!--Top Rated
-    <section>
-        <center><h2>Mejor valorados</h2></center>
-            <div id="products">
-            </div>
-    </section>-->
     <!--Footer-->
     <footer>
         <div class="cont-footer row">

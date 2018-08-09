@@ -56,7 +56,7 @@ ul#list-icons {
 
 }
 #products{
-    min-height: 40vh;
+    min-height: 10vh;
     max-height: fit-content;
 }
 
@@ -87,6 +87,44 @@ button.descr-btn {
     margin: 20px;
 }
 
+#continue-btn {
+    border-radius: 90px;
+    padding: 0;
+    width: 150px;
+}
+
+.fa-star {
+    color: #F5C919;
+}
+
+.basic-account {
+    width: 100%;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.fa-check-circle, .fa-times-circle  {
+    font-size: 20px;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.fa-times-circle {
+    color: grey;
+}
+
+.premium-logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stars {
+    margin-top: 20px;
+}
 
 /*Footer*/
 
