@@ -117,9 +117,7 @@ const allProducts = (products) => {
     $("#products").html("");
     $('#products').css("display", "block");
     $('#info-product').css("display", "none");
-    console.log(products);
     const infoProducts = products.results;
-    console.log(infoProducts);
     infoProducts.forEach((product) =>{
         let nameProduct = product.title;
         let image = product.thumbnail;
@@ -142,11 +140,12 @@ const ajaxProducts = (event) => {
         datatype: 'json',
     })
     .done((response) => {
-        console.log(response);
+        //console.log(response);
         allProducts(response);
     })
     .fail((error) => {
         console.log('Error');
+        swal("¡Error!", "Intentalo de nuevo");
     });
 }
 
@@ -154,7 +153,6 @@ function idProduct(elem){
     var dataId = $(elem).data("id");
 
         //Specific info
-            console.log('click');
             $('#info-product').css("display", "block");
             $('#products').css("display", "none");
             const infoProduct = (products) => {
@@ -169,15 +167,15 @@ function idProduct(elem){
                 }
         
             const template2 = (image, nameProduct, price, brand, material, warranty) => {
-            let t = `<div><img src='${image} alt='product-picture'><br><h4>${nameProduct}<h4><br><h5>Precio: $${price}
-            MXN</h5><br><h5>Marca: ${brand}<br></h5><h5>Material: ${material}</h5><p>Garantía: ${warranty}</p></div>
-            <button type="button" class="back btn btn-outline-secondary descr-btn">Menú principal</button">
-            <button type="button" class="btn btn-success descr-btn">Comprar ahora</button">`;
+            let t = `<div><h4>${nameProduct}<h4><img class="img-product" src='${image} alt='product-picture'><br><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i></div><h5>Precio menudeo: $${price} MXN</h5><h5>Precio mayoreo negociable por piezas, contactar al proveedor**</h5><br><h5>Marca: ${brand}<br></h5><h5>Material: ${material}
+            </h5><p>Garantía: ${warranty}</p></div><button type="button" class="back btn btn-outline-secondary descr-btn">Menú principal</button">
+            <button type="button" class="btn btn-success descr-btn">Contactar proveedor</button">`;
                 return t;
             }
             
             const ajaxProducts2 = (dataId) => {
-                console.log(dataId);
+                //console.log(dataId);
                 $.ajax({
                     url: `https://api.mercadolibre.com/items/${dataId}`,
                     type: 'GET',
@@ -189,6 +187,7 @@ function idProduct(elem){
                 })
                 .fail((error) => {
                     console.log('Error2');
+                    swal("¡Error!", "Intentalo de nuevo");
                 });
             }
         
@@ -215,10 +214,11 @@ paypal.Button.render({
     onAuthorize: function (data, actions) {
         return actions.payment.execute()
         .then(function () {
-            window.alert('Gracias por tu compra!');
+            swal("Suscripción Exitosa", "¡Bienvenid@ a Probee!", "success");
+            //window.alert('¡Agradecemos su suscripción!');
         });
     }
-    }, '.paypal-button');
+    }, '#paypal-button');
 
 
 $(document).ready(() => {
