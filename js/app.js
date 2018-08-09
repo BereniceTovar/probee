@@ -52,7 +52,7 @@ function idProduct(elem){
                 }
         
             const template2 = (image, nameProduct, price, brand, material, warranty) => {
-            let t = `<div><h4>${nameProduct}<h4><img src='${image} alt='product-picture'><br><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            let t = `<div><h4>${nameProduct}<h4><img class="img-product" src='${image} alt='product-picture'><br><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
             <i class="fas fa-star"></i></div><h5>Precio menudeo: $${price} MXN</h5><h5>Precio mayoreo negociable por piezas, contactar al proveedor**</h5><br><h5>Marca: ${brand}<br></h5><h5>Material: ${material}
             </h5><p>Garantía: ${warranty}</p></div><button type="button" class="back btn btn-outline-secondary descr-btn">Menú principal</button">
             <button type="button" class="btn btn-success descr-btn">Contactar proveedor</button">`;

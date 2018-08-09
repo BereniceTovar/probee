@@ -49,6 +49,10 @@ ul#list-icons {
     margin-top: -4.5%;
 }
 
+i.fa-user {
+    margin-top: -15px;
+}
+
 /*Main*/
 
 #main-doc {
@@ -130,7 +134,8 @@ button.descr-btn {
 
 footer {
     background-color: #d1d1d1;
-    height: 40vh;
+    min-height: 40vh;
+    max-height: fit-content;
     width: 100%;
     margin-top: 2.5em;
 }
@@ -184,4 +189,64 @@ div ul a:active, a:link, a:visited {
 
 .newsletter {
     padding-top: 10px;
+}
+
+/* Media Query */
+
+@media screen and (min-width:300px ) and (max-width:576px){
+    a.logs {
+        display: none;
+    }
+    span.icon-user {
+        display: block;
+    }
+    i.fa-user {
+        margin-top: -45px;
+    }
+    a.name-probee {
+        margin-left: -35px;
+    }
+    .element-categ {
+        display: none;
+    }
+    #products{
+        min-height: 0;
+    }
+    #advertising {
+        top: 10;
+    }
+    footer {
+        height: fit-content;
+    }
+    h4.centr {
+        text-align: center;
+    }
+    img.img-product {
+        width: 100%;;
+    }
+}
+
+@media screen and (min-width:577px ) and (max-width:1023px){
+    a.logs {
+        display: none;
+    }
+    span.icon-user {
+        display: block;
+    }
+    .element-categ {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px ) and (max-width:2560px){
+    a.logs {
+        display: block;
+    }
+    span.icon-user {
+        display: none;
+    }
+    .element-categ {
+        display: block;
+    }
+
 }
