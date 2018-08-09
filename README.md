@@ -43,5 +43,17 @@ Probee es un marketplace en el cual los proveedores pueden ofrecer sus productos
 
 7. Si el usuario quiere ser miembro premium va hacer click en el botón de paypal para hacer el pago directo de su suscripción a nuestra lista.
 
+### Visualización desktop
+![Desktop](assets/images/desktop1.png)
+
+![Desktop](assets/images/desktop2.png)
+![Desktop](assets/images/desktop3.png)
+
+![Desktop](assets/images/desktop4.png)
+![Desktop](assets/images/desktop5.png)
+
+![Desktop](assets/images/desktop6.png)
+
+![Desktop](assets/images/desktop7.png)
 
 
