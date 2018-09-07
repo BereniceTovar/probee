@@ -1,7 +1,7 @@
 # Probee
 Se desarrolló una app web e-commerce, bajo los principios de SPA (Single Page Application).
 
-![probee-preview](https://user-images.githubusercontent.com/35509785/45197295-0825da80-b226-11e8-9bd8-2c08b8679cc3.png)
+![probee-preview](https://user-images.githubusercontent.com/35509785/45061797-9c980d80-b06b-11e8-94fd-3a9759137dbd.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
